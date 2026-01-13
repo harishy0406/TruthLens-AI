@@ -22,3 +22,11 @@ Motivation
 detection more challenging. 
 • Existing fake news detection models lack robustness against AI-generated content and 
 provide limited interpretability.
+
+
+Objectives 
+• To detect fake news written by both humans and AI systems using deep learning 
+techniques. 
+• To improve the existing FakeBERT model by integrating an attention mechanism. 
+• To provide explainable predictions highlighting important words and phrases. 
+• To compare multiple models and identify the most effective approach.
