@@ -30,3 +30,12 @@ techniques.
 • To improve the existing FakeBERT model by integrating an attention mechanism. 
 • To provide explainable predictions highlighting important words and phrases. 
 • To compare multiple models and identify the most effective approach.
+
+
+
+Technique 
+• Text preprocessing and tokenization using NLP techniques. 
+• Feature extraction using BERT embeddings. 
+• Pattern learning using CNN and Bi-LSTM models. 
+• Integration of an attention mechanism into FakeBERT. 
+• Explainability using attention-based word importance visualization. 
