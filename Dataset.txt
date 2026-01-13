@@ -39,3 +39,10 @@ Technique
 • Pattern learning using CNN and Bi-LSTM models. 
 • Integration of an attention mechanism into FakeBERT. 
 • Explainability using attention-based word importance visualization. 
+
+
+Novelty 
+• The attention-enhanced FakeBERT model improves detection accuracy for both human
+written and AI-generated fake news by effectively focusing on important textual patterns. 
+• The inclusion of explainability techniques enables transparent and interpretable 
+predictions, making the system more reliable and trustworthy.
