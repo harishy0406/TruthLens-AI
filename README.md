@@ -21,7 +21,7 @@ detection more challenging.
 provide limited interpretability.
 
 
-Motivation 
+Motivation
 • The increasing use of AI tools has enabled the large-scale generation of fake news, making 
 detection more challenging. 
 • Existing fake news detection models lack robustness against AI-generated content and 
