@@ -11,3 +11,20 @@ import pandas as pd
 from sklearn.model_selection import train_test_split import nltk
 from nltk.corpus import stopwords import re
 from nltk.stem import WordNetLemmatizer
+
+#Activation Functions
+
+#sigmoid
+def sigmoid(X):
+    return 1/(1+np.exp(-X))
+
+#tanh 
+def tanh_activation(X):
+    return (np.exp(X)-np.exp(-X))/(np.exp(X)+np.exp(-X))
+
+#softmax activation
+def softmax(X):
+    exp_X = np.exp(X)
+    exp_X_sum = np.sum(exp_X,axis=1).reshape(-1,1)
+    soft_exp_X = exp_X/exp_X_sum
+    return soft_exp_X
