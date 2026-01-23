@@ -8,8 +8,6 @@ from tensorflow.keras.layers import Dense,Flatten,Embedding,Activation,Dropout,S
 from tensorflow.keras.layers import Conv1D,MaxPooling1D,GlobalAveragePooling1D,GlobalMaxPooling1D
 
 import pandas as pd
-from sklearn.model_selection import train_test_split
-import nltk
-from nltk.corpus import stopwords
-import re
+from sklearn.model_selection import train_test_split import nltk
+from nltk.corpus import stopwords import re
 from nltk.stem import WordNetLemmatizer
