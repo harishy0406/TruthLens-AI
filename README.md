@@ -6,7 +6,7 @@ DATASET USED:
 https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset 
 https://www.kaggle.com/datasets/atharvasoundankar/gen-ai-misinformation-detection-datase-20242025 
 
-Dataset Details 
+Dataset Details: 
 • Dataset Name: 
     o Fake and Real News Dataset 
     o Gen-AI Misinformation Detection Dataset 
