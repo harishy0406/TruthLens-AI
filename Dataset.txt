@@ -7,7 +7,7 @@ https://www.kaggle.com/datasets/atharvasoundankar/gen-ai-misinformation-detectio
 PREVIOUS WORK
 FakeBERT: Fake news detection in social media with a BERT-based deep learning approach
 https://dl.acm.org/doi/abs/10.1007/s11042-020-10183-2 
-
+ 
 
 Dataset Details 
 • Dataset Name: 
