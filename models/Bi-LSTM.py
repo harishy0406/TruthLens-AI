@@ -28,3 +28,4 @@ def softmax(X):
     exp_X_sum = np.sum(exp_X,axis=1).reshape(-1,1)
     soft_exp_X = exp_X/exp_X_sum
     return soft_exp_X
+    
