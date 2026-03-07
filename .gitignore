@@ -1,0 +1,149 @@
+# =========================
+
+# Python
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+
+# Virtual Environments
+
+# =========================
+
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+
+# Jupyter Notebook
+
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+
+# Dataset Files
+
+# =========================
+
+data/raw/
+data/external/
+data/interim/
+data/processed/
+
+# Allow small example datasets if needed
+
+!data/.gitkeep
+
+# =========================
+
+# DVC
+
+# =========================
+
+.dvc/cache/
+.dvc/tmp/
+
+# =========================
+
+# MLflow
+
+# =========================
+
+mlruns/
+experiments/
+
+# =========================
+
+# Model Artifacts
+
+# =========================
+
+models/
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.onnx
+
+# =========================
+
+# Logs
+
+# =========================
+
+logs/
+*.log
+
+# =========================
+
+# Environment Variables
+
+# =========================
+
+.env
+.env.*
+
+# =========================
+
+# IDE / Editor
+
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+
+# OS Files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# Build / Distribution
+
+# =========================
+
+build/
+dist/
+*.egg-info/
+
+# =========================
+
+# Docker
+
+# =========================
+
+docker-compose.override.yml
+
+# =========================
+
+# Temporary Files
+
+# =========================
+
+*.tmp
+*.swp
+*.bak
+
+# =========================
+
+# Test / Coverage
+
+# =========================
+
+.coverage
+htmlcov/
+.pytest_cache/
