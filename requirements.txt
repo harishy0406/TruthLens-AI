@@ -7,4 +7,6 @@ transformers
 torch
 datasets
 tqdm
-python-dotenv
+spacy
+nltk
+wordcloud
