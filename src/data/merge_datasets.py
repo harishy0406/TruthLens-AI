@@ -13,7 +13,6 @@ def load_fake_real_dataset():
 
     return fake, real
 
-
 def load_gen_ai_dataset():
 
     path = os.path.join(EXTERNAL_DATA_DIR, "gen_ai_misinformation.csv")
