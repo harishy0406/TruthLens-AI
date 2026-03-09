@@ -25,3 +25,7 @@ Motivation
 detection more challenging. 
 • Existing fake news detection models lack robustness against AI-generated content and 
 provide limited interpretability.
+
+
+ai dataset search detect ai 
+ML model, LSTM biLstm, CNN logister
