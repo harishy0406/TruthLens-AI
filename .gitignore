@@ -1,149 +1,145 @@
 # =========================
-
 # Python
-
 # =========================
-
-**pycache**/
+__pycache__/
 *.py[cod]
 *$py.class
 *.so
-
+*.pyo
+*.pyd
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+implementation_plan.md 
 # =========================
-
 # Virtual Environments
-
 # =========================
-
 venv/
 env/
 ENV/
 .venv/
 
 # =========================
-
 # Jupyter Notebook
-
 # =========================
-
 .ipynb_checkpoints/
 
 # =========================
-
 # Dataset Files
-
 # =========================
-
 data/raw/
 data/external/
 data/interim/
 data/processed/
+*.csv
+*.tsv
+*.xlsx
+*.parquet
 
 # Allow small example datasets if needed
-
 !data/.gitkeep
 
 # =========================
-
 # DVC
-
 # =========================
-
 .dvc/cache/
 .dvc/tmp/
 
 # =========================
-
 # MLflow
-
 # =========================
-
 mlruns/
 experiments/
 
 # =========================
-
 # Model Artifacts
-
 # =========================
+# Ignore specific large binary files / folders containing them
+models/ai_models/
+models/fake_models/
+models/final/
 
-models/
+# Standard model extensions
 *.pt
 *.pth
 *.h5
 *.ckpt
 *.onnx
+*.pkl
+*.joblib
+*.pb
+*.tflite
+
+# Allow model source code
+!models/*.py
 
 # =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+.streamlit/history/
 
+# =========================
 # Logs
-
 # =========================
-
 logs/
 *.log
 
 # =========================
-
 # Environment Variables
-
 # =========================
-
 .env
 .env.*
 
 # =========================
-
 # IDE / Editor
-
 # =========================
-
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # =========================
-
 # OS Files
-
 # =========================
-
 .DS_Store
 Thumbs.db
 
 # =========================
-
-# Build / Distribution
-
-# =========================
-
-build/
-dist/
-*.egg-info/
-
-# =========================
-
 # Docker
-
 # =========================
-
 docker-compose.override.yml
 
 # =========================
-
 # Temporary Files
-
 # =========================
-
 *.tmp
-*.swp
 *.bak
 
 # =========================
-
 # Test / Coverage
-
 # =========================
-
 .coverage
 htmlcov/
 .pytest_cache/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
