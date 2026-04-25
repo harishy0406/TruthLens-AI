@@ -1,5 +1,4 @@
-"""Verify model on in-distribution data."""
-import sys, os
+"""Verify model on in-distribution data.""" 
 sys.path.insert(0, '.')
 import pandas as pd, numpy as np, joblib
 from tensorflow.keras.models import load_model
