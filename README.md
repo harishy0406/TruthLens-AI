@@ -11,7 +11,7 @@
 
 ## 🎯 Overview
 
-TruthLens is a production-ready AI system that classifies news articles as **Real (0)** or **Fake/Misinformation (1)**. It operates on two detection tracks simultaneously:
+TruthLens is a production-ready AI system that classifies news articles as **Real (0)** or **Fake/Misinformation (1)**. It operates on two detection tracks simultaneously: 
 
 | Track | Dataset | Purpose |
 |---|---|---|
